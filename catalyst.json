@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "targets": [
+      "dia_b_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  }
+}

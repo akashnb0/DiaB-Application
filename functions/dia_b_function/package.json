@@ -1,0 +1,9 @@
+{
+	"name": "dia_b_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "hariguru0304@gmail.com",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

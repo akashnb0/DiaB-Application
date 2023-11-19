@@ -1,0 +1,331 @@
+[debug] [2022-09-24T16:17:52.985Z] : 
+[debug] [2022-09-24T16:17:52.987Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T16:17:52.987Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\jagahari\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-24T16:17:52.988Z] : CLI Version:  1.13.3
+[debug] [2022-09-24T16:17:52.988Z] : Platform:     win32
+[debug] [2022-09-24T16:17:52.988Z] : Node Version: v16.17.1
+[debug] [2022-09-24T16:17:53.002Z] : Time:         Sat Sep 24 2022 21:47:52 GMT+0530 (India Standard Time)
+[debug] [2022-09-24T16:17:53.003Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T16:17:53.003Z] : 
+[debug] [2022-09-24T16:17:54.185Z] : > authorizing via signed-in user option
+[debug] [2022-09-24T16:17:54.185Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-24T16:17:54.199Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006 
+
+[debug] [2022-09-24T16:17:54.483Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 16:17:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=c7e6bd99-7436-41c4-a842-017993cfd2f4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c7e6bd99-7436-41c4-a842-017993cfd2f4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T16:17:54.498Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006/environment 
+
+[debug] [2022-09-24T16:17:54.670Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 16:17:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=ac01819e-25c5-4797-a2f9-90c9d92eb995;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ac01819e-25c5-4797-a2f9-90c9d92eb995;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T16:17:55.021Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-24T16:17:55.226Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 16:17:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=9c604807-08f9-4fd9-8454-815f07d0c9ef;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9c604807-08f9-4fd9-8454-815f07d0c9ef;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T16:17:55.234Z] : unknown eol undefined hence skipping check
+[info] [2022-09-24T16:17:55.283Z] : i server[dia_b_function]: URL : http://localhost:3000/server/dia_b_function/
+[info] [2022-09-24T16:17:55.283Z] : 
+[info] [2022-09-24T16:17:55.444Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[debug] [2022-09-24T19:07:55.834Z] : 
+[debug] [2022-09-24T19:07:55.838Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T19:07:55.840Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\jagahari\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-24T19:07:55.842Z] : CLI Version:  1.13.3
+[debug] [2022-09-24T19:07:55.845Z] : Platform:     win32
+[debug] [2022-09-24T19:07:55.846Z] : Node Version: v16.17.1
+[debug] [2022-09-24T19:07:55.856Z] : Time:         Sun Sep 25 2022 00:37:55 GMT+0530 (India Standard Time)
+[debug] [2022-09-24T19:07:55.857Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T19:07:55.857Z] : 
+[debug] [2022-09-24T19:07:58.363Z] : > authorizing via signed-in user option
+[debug] [2022-09-24T19:07:58.363Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-24T19:07:58.396Z] : > refreshing access token <
+[debug] [2022-09-24T19:07:58.399Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-24T19:07:59.227Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 19:07:58 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=97e973f5-9423-4f10-8102-1ba3ed22e6e5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=97e973f5-9423-4f10-8102-1ba3ed22e6e5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T19:07:59.259Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006 
+
+[debug] [2022-09-24T19:07:59.601Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 19:07:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=b86eb7b6-e7b2-4ca9-825e-7869bb6d3998;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b86eb7b6-e7b2-4ca9-825e-7869bb6d3998;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T19:07:59.608Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006/environment 
+
+[debug] [2022-09-24T19:07:59.766Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 19:07:58 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=8bcc9927-f286-4215-937b-6615a7cfed02;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8bcc9927-f286-4215-937b-6615a7cfed02;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T19:08:00.430Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-24T19:08:00.605Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 19:07:59 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=5317e0b1-9d33-4038-995c-064e68e2eec1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5317e0b1-9d33-4038-995c-064e68e2eec1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T19:08:00.625Z] : unknown eol undefined hence skipping check
+[info] [2022-09-24T19:08:00.834Z] : i server[dia_b_function]: URL : http://localhost:3000/server/dia_b_function/
+[info] [2022-09-24T19:08:00.836Z] : 
+[info] [2022-09-24T19:08:01.107Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-24T19:09:32.170Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:09:32.296Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:13:26.047Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:14:21.576Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:14:22.338Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:28:28.114Z] : Addition of file(s) is detected in images\animation_640_l8gb0nxm.gif of the Web-Client.
+[info] [2022-09-24T19:28:28.120Z] : Change(s) is detected in images\animation_640_l8gb0nxm.gif of the Web-Client.
+[info] [2022-09-24T19:28:44.338Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:28:51.194Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:28:52.545Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:28:54.797Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:28:54.875Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:28:55.217Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:30:26.669Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:30:29.488Z] : Addition of file(s) is detected in images\100721-food-loading-animation.gif of the Web-Client.
+[info] [2022-09-24T19:30:29.499Z] : Change(s) is detected in images\100721-food-loading-animation.gif of the Web-Client.
+[info] [2022-09-24T19:30:37.997Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:30:40.091Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:30:40.342Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:46:15.911Z] : Addition of file(s) is detected in images\animation_640_l8gbnw1e.gif of the Web-Client.
+[info] [2022-09-24T19:46:15.916Z] : Change(s) is detected in images\animation_640_l8gbnw1e.gif of the Web-Client.
+[info] [2022-09-24T19:47:10.919Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:47:14.372Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:47:14.597Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:47:14.980Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:47:32.722Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:47:34.830Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:47:36.082Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:47:39.656Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:47:55.614Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:48:00.957Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:51:20.177Z] : Addition of file(s) is detected in images\shreyak-singh-gFB1IPmH6RE-unsplash (1).jpg of the Web-Client.
+[info] [2022-09-24T19:51:20.186Z] : Change(s) is detected in images\shreyak-singh-gFB1IPmH6RE-unsplash (1).jpg of the Web-Client.
+[info] [2022-09-24T19:51:54.377Z] : Addition of file(s) is detected in images\Idli.jpg of the Web-Client.
+[info] [2022-09-24T19:55:57.799Z] : Addition of file(s) is detected in images\Banana leaf food.jpg of the Web-Client.
+[info] [2022-09-24T19:55:57.813Z] : Change(s) is detected in images\Banana leaf food.jpg of the Web-Client.
+[info] [2022-09-24T19:56:18.600Z] : Addition of file(s) is detected in images\dosa.jpeg of the Web-Client.
+[info] [2022-09-24T19:56:18.609Z] : Change(s) is detected in images\dosa.jpeg of the Web-Client.
+[info] [2022-09-24T19:57:37.953Z] : Addition of file(s) is detected in images\Channa Masala.jpg of the Web-Client.
+[info] [2022-09-24T19:57:37.969Z] : Change(s) is detected in images\Channa Masala.jpg of the Web-Client.
+[info] [2022-09-24T19:58:36.012Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:58:43.750Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:58:44.874Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:59:03.284Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:59:05.846Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:59:13.851Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:59:15.739Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T19:59:29.617Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:00:06.291Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:00:07.977Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:01:15.104Z] : Addition of file(s) is detected in images\Fresh Juices.jpg of the Web-Client.
+[info] [2022-09-24T20:01:15.113Z] : Change(s) is detected in images\Fresh Juices.jpg of the Web-Client.
+[info] [2022-09-24T20:01:22.950Z] : Addition of file(s) is detected in images\Chappathi.jpg of the Web-Client.
+[info] [2022-09-24T20:01:22.953Z] : Change(s) is detected in images\Chappathi.jpg of the Web-Client.
+[info] [2022-09-24T20:01:26.471Z] : Addition of file(s) is detected in images\Side sidhes.jpg of the Web-Client.
+[info] [2022-09-24T20:02:20.028Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:02:22.263Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:02:38.033Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:03:11.485Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:03:12.805Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:03:40.133Z] : Addition of file(s) is detected in images\Fried Corn.jpg of the Web-Client.
+[info] [2022-09-24T20:03:40.140Z] : Change(s) is detected in images\Fried Corn.jpg of the Web-Client.
+[info] [2022-09-24T20:03:53.064Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:03:55.969Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:03:59.295Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:04:36.239Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:04:51.190Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:05:06.011Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:05:19.336Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:05:41.903Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:06:10.235Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:06:15.417Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:06:37.871Z] : Addition of file(s) is detected in images\Soup.jpg of the Web-Client.
+[info] [2022-09-24T20:06:48.783Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:06:51.327Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:06:53.743Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:07:39.217Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:07:49.395Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:11:31.748Z] : Addition of file(s) is detected in images\Bonda.jpg of the Web-Client.
+[info] [2022-09-24T20:11:46.435Z] : Addition of file(s) is detected in images\Panneer gravy.jpg of the Web-Client.
+[info] [2022-09-24T20:11:46.449Z] : Change(s) is detected in images\Panneer gravy.jpg of the Web-Client.
+[info] [2022-09-24T20:11:58.005Z] : Addition of file(s) is detected in images\Ragi Dosa.jpg of the Web-Client.
+[info] [2022-09-24T20:11:58.031Z] : Change(s) is detected in images\Ragi Dosa.jpg of the Web-Client.
+[info] [2022-09-24T20:12:00.442Z] : Addition of file(s) is detected in images\Spring-Onion-Thalipeeth-Recipe.jpg of the Web-Client.
+[info] [2022-09-24T20:12:07.191Z] : Addition of file(s) is detected in images\bissi bella bath.jpg of the Web-Client.
+[info] [2022-09-24T20:12:07.195Z] : Change(s) is detected in images\bissi bella bath.jpg of the Web-Client.
+[info] [2022-09-24T20:12:09.219Z] : Addition of file(s) is detected in images\wheat-rava-idli.jpg of the Web-Client.
+[info] [2022-09-24T20:12:09.244Z] : Change(s) is detected in images\wheat-rava-idli.jpg of the Web-Client.
+[info] [2022-09-24T20:13:00.696Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:13:04.077Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:13:08.760Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:13:19.501Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:13:23.700Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:13:26.082Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:13:34.896Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:13:36.851Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:13:56.265Z] : Addition of file(s) is detected in images\Millet Dosa.jpg of the Web-Client.
+[info] [2022-09-24T20:13:56.281Z] : Change(s) is detected in images\Millet Dosa.jpg of the Web-Client.
+[info] [2022-09-24T20:14:10.991Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:14:13.583Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:14:17.664Z] : Addition of file(s) is detected in images\Ildy.jpg of the Web-Client.
+[info] [2022-09-24T20:14:30.517Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:14:35.181Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:14:36.327Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:14:37.605Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:14:41.754Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:14:46.100Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:14:48.262Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:15:27.756Z] : Addition of file(s) is detected in images\BANANA-VEG-VADAI.webp of the Web-Client.
+[info] [2022-09-24T20:15:27.765Z] : Change(s) is detected in images\BANANA-VEG-VADAI.webp of the Web-Client.
+[info] [2022-09-24T20:15:43.800Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:15:49.552Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:18:50.793Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:18:53.546Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:18:56.608Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:19:26.508Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:19:31.018Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:19:35.564Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:19:38.189Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:19:40.191Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:19:43.379Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:22:06.494Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:22:19.899Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:22:23.474Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:22:26.325Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:22:27.436Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:22:28.994Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:22:33.793Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:22:36.421Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:23:08.830Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:23:12.216Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:23:18.944Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:23:20.068Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:23:23.323Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:23:38.771Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:23:42.512Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:23:44.839Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:23:50.356Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:23:53.568Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:23:56.383Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:23:59.568Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:24:05.182Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:24:18.308Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:24:35.863Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:24:44.237Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:26:41.086Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:26:48.387Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:26:55.834Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:27:00.795Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:27:05.677Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:27:08.677Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:27:11.454Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:27:17.265Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:27:18.306Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:27:20.297Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:27:21.775Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2022-09-24T20:33:09.178Z] : Addition of file(s) is detected in images\Order on the way.gif of the Web-Client.
+[info] [2022-09-24T20:33:09.194Z] : Change(s) is detected in images\Order on the way.gif of the Web-Client.
+[info] [2022-09-24T20:35:28.327Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:35:31.827Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:35:33.834Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:35:36.301Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:35:36.482Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:39:34.354Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:39:34.704Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2022-09-24T20:40:02.515Z] : 
+[debug] [2022-09-24T20:40:02.517Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T20:40:02.518Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\jagahari\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-24T20:40:02.519Z] : CLI Version:  1.13.3
+[debug] [2022-09-24T20:40:02.519Z] : Platform:     win32
+[debug] [2022-09-24T20:40:02.520Z] : Node Version: v16.17.1
+[debug] [2022-09-24T20:40:02.522Z] : Time:         Sun Sep 25 2022 02:10:02 GMT+0530 (India Standard Time)
+[debug] [2022-09-24T20:40:02.523Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T20:40:02.523Z] : 
+[debug] [2022-09-24T20:40:04.860Z] : > authorizing via signed-in user option
+[debug] [2022-09-24T20:40:04.861Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-24T20:40:04.886Z] : > refreshing access token <
+[debug] [2022-09-24T20:40:04.889Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-09-24T20:40:05.224Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 20:40:04 GMT","content-type":"application/json;charset=UTF-8","content-length":"168","connection":"close","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=88339627-975d-406d-b50a-90b1821f58d2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=88339627-975d-406d-b50a-90b1821f58d2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T20:40:05.243Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006 
+
+[debug] [2022-09-24T20:40:05.492Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 20:40:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=54d45e02-1cb9-472b-a358-3c721e908a79;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=54d45e02-1cb9-472b-a358-3c721e908a79;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T20:40:05.498Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006/environment 
+
+[debug] [2022-09-24T20:40:05.650Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 20:40:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=20105f4b-4174-4439-9c1a-fae164fee9dc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=20105f4b-4174-4439-9c1a-fae164fee9dc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T20:40:06.212Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-24T20:40:06.362Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 20:40:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=9872cca2-7adc-4959-ba5d-68b26d79163a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9872cca2-7adc-4959-ba5d-68b26d79163a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T20:40:06.381Z] : unknown eol undefined hence skipping check
+[info] [2022-09-24T20:40:06.570Z] : i server[dia_b_function]: URL : http://localhost:3000/server/dia_b_function/
+[info] [2022-09-24T20:40:06.573Z] : 
+[info] [2022-09-24T20:40:06.851Z] : i client[sampleApp]: URL : http://localhost:3000/app/
+[info] [2022-09-24T20:41:45.282Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:41:45.553Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:44:02.022Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:44:04.850Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:44:05.066Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:45:19.373Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:45:20.889Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:45:21.151Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:46:25.084Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:46:51.366Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:46:51.803Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:46:52.009Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2022-09-24T20:51:39.660Z] : 
+[debug] [2022-09-24T20:51:39.663Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T20:51:39.665Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\jagahari\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-09-24T20:51:39.666Z] : CLI Version:  1.13.3
+[debug] [2022-09-24T20:51:39.667Z] : Platform:     win32
+[debug] [2022-09-24T20:51:39.668Z] : Node Version: v16.17.1
+[debug] [2022-09-24T20:51:39.670Z] : Time:         Sun Sep 25 2022 02:21:39 GMT+0530 (India Standard Time)
+[debug] [2022-09-24T20:51:39.672Z] : ----------------------------------------------------------------------
+[debug] [2022-09-24T20:51:39.672Z] : 
+[debug] [2022-09-24T20:51:41.133Z] : > authorizing via signed-in user option
+[debug] [2022-09-24T20:51:41.133Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-09-24T20:51:41.149Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006 
+
+[debug] [2022-09-24T20:51:41.529Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 20:51:40 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=7725359a-16ae-4af4-b155-f811f630d2d0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7725359a-16ae-4af4-b155-f811f630d2d0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T20:51:41.542Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006/environment 
+
+[debug] [2022-09-24T20:51:41.711Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 20:51:40 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=6be7beb8-41f0-4e83-841e-94206007fae2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6be7beb8-41f0-4e83-841e-94206007fae2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T20:51:41.980Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2022-09-24T20:51:41.990Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2069000000011006/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-09-24T20:51:42.011Z] : http port : '3030' is not available. Hence port '3032' will be used instead.
+[debug] [2022-09-24T20:51:42.164Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 24 Sep 2022 20:51:41 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=703a4f9c-50ba-41a0-8f52-9b729ba0c5c9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=703a4f9c-50ba-41a0-8f52-9b729ba0c5c9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-09-24T20:51:42.172Z] : unknown eol undefined hence skipping check
+[debug] [2022-09-24T20:51:42.219Z] : http port : '3010' is not available. Hence port '3011' will be used instead.
+[info] [2022-09-24T20:51:42.299Z] : i server[dia_b_function]: URL : http://localhost:3001/server/dia_b_function/
+[info] [2022-09-24T20:51:42.299Z] : 
+[info] [2022-09-24T20:51:42.343Z] : Change(s) is detected in .catalyst\reload-script.js of the Web-Client.
+[info] [2022-09-24T20:51:42.461Z] : i client[sampleApp]: URL : http://localhost:3001/app/
+[info] [2022-09-24T20:57:50.193Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:50.199Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:50.517Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:50.520Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:54.503Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:54.512Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:54.950Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:54.950Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:57.357Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:57.371Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:57.663Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2022-09-24T20:57:57.665Z] : Change(s) is detected in index.html of the Web-Client.
